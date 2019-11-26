@@ -1,0 +1,23 @@
+/*
+ * @Author: zhaoyuyang
+ * @Date: 2018-07-04 17:23:08
+ * @Last Modified by: zhaoyuyang
+ * @Last Modified time: 2018-08-14 18:02:31
+ */
+.watermarkWrap {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  user-select: none;
+  .row {
+    white-space: nowrap;
+  }
+  :global {
+    .watermark {
+      text-align: center;
+      display: inline-block;
+    }
+  }
+}
